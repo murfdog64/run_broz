@@ -28,6 +28,8 @@ h1 {
 .card {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     border: 2px solid #eee;
     margin: 8px;
     padding: 4px;
@@ -39,8 +41,8 @@ h1 {
 }
 
 .card > img {
-    max-height: 125px;
-    margin-right: 100px;
+    height: 125px;
+    width: 125px;
 }
 
 form {
