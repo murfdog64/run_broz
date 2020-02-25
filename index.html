@@ -7,8 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header id="navigation">
+            <a href="#who-we-are">Identity</a>
+            <a href="#the-broz">The Broz</a>
+            <a href="#testimonials">Witness</a>
+            <a href="#contact">Join</a>
+    </header>
     <section id="header" class="page-section">
         <img src="logo.jpg" alt="Run Broz logo">
+    </section>
+    <section id="who-we-are" class="page-section">
+        <h2>Who are the Run.Broz?</h2>
+        <p id="mission">Have you ever been at a race, where you saw a bunch of runners in matching shirts? Maybe with an unispired or even poorly done logo? They must be so fast.. and so much better than everyone else. The Run.Broz are different. We don't even have a real logo. Running is supposed to be fun with no other strings or hashtags attached. So leave your wikipedia page to the vandals, and your 32's in your burner phones and just Run.Bro</p>
     </section>
     <section id="the-broz" class="page-section">
         <h2>Meet the Broz</h2>
@@ -73,7 +83,9 @@
             <p>-Carly Robbins</p>
         </div>
         <div class="story">
-            <h3>Lex's Quote</h3>
+            <h3>Life Filling</h3>
+            <p>"The Run.Broz thread alone gobbles 2 hours (of my) day. #priorities"</p>
+            <p>-Kyle Hardy</p>
         </div>
         <div class="story">
             <h3>Link's Quote</h3>
@@ -83,25 +95,24 @@
     <section id="contact" class="page-section">
         <h2>Ready to join the Broz?</h2>
         <div id="reject-form">
-        <form class="form" action="/form-page" method="POST">
-            <ul>
-                <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name">
-                </li>
-                <li>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail">
-                </li>
-                <li>
-                    <label for="msg">Message:</label>
-                    <textarea name="user-message" id="msg" cols="30" rows="10">
-                    </textarea>
-                </li>
-                <li class= "button">
-                    <button type="submit">Submit</button>
-                </li>
-            </ul>
+        <form class="form" method="POST">
+                <p>
+                    <label for="name"></label>
+                    <input class=form-box type="text" id="name" placeholder="Name">
+                </p>
+                <p>
+                    <label for="mail"></label>
+                    <input class=form-box type="email" id="mail" placeholder="E-mail">
+                </p>
+                <p>
+                    <label for="msg"></label>
+                    <input class=form-box type="text" id="dnfs" placeholder="Number of DNFs">
+                </p>
+                <p>
+                    <label for="msg"></label>
+                    <input class=form-box type="text" id="brands" placeholder="Brand Loyalties">
+                </p>
+                <p class="button">Submit to Apply!</p>
         </form>
         </div>
     </section>

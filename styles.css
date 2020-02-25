@@ -9,6 +9,16 @@
     padding: 15px;
 }
 
+#navigation {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #7d7d7d;
+    color: white;
+    justify-content: space-evenly;
+    padding: 12px;
+    border: 1px;
+}
+
 #header {
     display: flex;
     justify-content: flex-start;
@@ -19,8 +29,20 @@
     background-size: cover;
 }
 
+#who-we-are {
+    min-height: 40vh;
+    color: white;
+}
+
+#mission {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
 #the-broz {
-    background-color: #4c4c4c;
+    background-color: #b5b5b5;
 }
 
 #all-cards {
@@ -42,7 +64,8 @@
 }
 
 #testimonials {
-    background-color: #888888;
+    background-color: #565656;
+    color: white;
 }
 
 #header > img {
@@ -81,7 +104,7 @@ h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-content: center;
+    text-align: center;
     padding: 2px;
     margin: 8px;
     border: 2px solid #eee;
@@ -90,12 +113,32 @@ h2 {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     width: 400px;
     padding: 5px;
     border: 1px solid #eee;
     border-radius: 2px;
   }
+
+.form-box {
+    width: 300px;
+    min-height: 30px;
+}  
+
+.button {
+    background-color: royalblue;
+    color: white;
+    border: solid 8px royalblue;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: red;
+    border: red 8px solid;
+}
 
 ul {
     list-style: none;
@@ -118,7 +161,14 @@ a:hover {
 
 @media only screen and (max-width: 650px) {
     .headshot {
-        height: 250px;
-        width: 250px;
+        height: 220px;
+        width: 220px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #header {
+        height: 35vh;
+        background-image: url(ptj-small.jpeg);
+        background-size: cover;
     }
 }
