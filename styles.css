@@ -6,6 +6,7 @@
 body {
     margin: 0px;
 }
+
 .page-section {
     min-height: 60vh;
     background-color: #7d7d7d;
@@ -28,7 +29,7 @@ body {
     align-items: flex-start;
     height: 65vh;
     background-color: black;
-    background-image: url("ptj.png");
+    background-image: url("images/ptj.png");
     background-size: cover;
 }
 
@@ -58,6 +59,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color: white;
 }
 
 #reject-form {
@@ -111,8 +113,8 @@ h2 {
     padding: 2px;
     margin: 8px;
     border: 2px solid #eee;
-    max-width: 250px;
-    max-height: 250px;
+    width: 250px;
+    height: 250px;
 }
 
 form {
@@ -160,6 +162,18 @@ a:visited {
 
 a:hover {
     background-color: #eee;
+}
+
+.the-epistle {
+  color: white;
+  cursor: pointer;
+}
+
+#page-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 650px) {
