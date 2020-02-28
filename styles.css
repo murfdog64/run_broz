@@ -110,7 +110,7 @@ h2 {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 2px;
+    padding: 8px;
     margin: 8px;
     border: 2px solid #eee;
     width: 250px;
@@ -160,13 +160,20 @@ a:visited {
     color: black;
 }
 
+a.the-epistle {
+  color: white;
+}
+
 a:hover {
     background-color: #eee;
 }
 
 .the-epistle {
   color: white;
-  cursor: pointer;
+}
+
+.the-epistle:hover {
+  color: black;
 }
 
 #page-2 {
@@ -184,8 +191,10 @@ a:hover {
 }
 @media only screen and (max-width: 500px) {
     #header {
-        height: 35vh;
-        background-image: url(ptj-small.jpeg);
-        background-size: cover;
+      display: flex;
+      justify-content: center;
+      height: 35vh;
+      background-image: url(images/ptj-small.jpeg);
+      background-size: cover;
     }
 }
